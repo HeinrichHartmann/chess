@@ -1,3 +1,6 @@
+* Chess.git
+
+* Game
 :PROPERTIES:
 :WHITE: Rene Pickhardt
 :BLACK: Heinrich Hartmann
@@ -23,5 +26,9 @@
 | 8 | r | n | b | q | k | b | n | r |
 |---+---+---+---+---+---+---+---+---|
 
+* Current Position
+
 #+CAPTION: Current Position
 [[./position.png]]
+
+run `make` to update the image.
