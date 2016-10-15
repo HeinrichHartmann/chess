@@ -1,8 +1,8 @@
 if (/^[|] [1-8]/) {
-    s/^\|.*?\| //;
-    s/ \|[ ]*$//;
-    s/ \| //g;
-    s/\n/\//g;
+    s/^\|.*?\| //; # trim line head
+    s/ \|[ ]*$//;  # trim line tail
+    s/ \| //g;     # delete " | " separators
+    s/\n/\//g;     # replace \n -> /
     s/        /8/g;
     s/       /7/g;
     s/      /6/g;

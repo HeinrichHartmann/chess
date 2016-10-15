@@ -31,4 +31,4 @@
 #+CAPTION: Current Position
 [[./position.png]]
 
-run `make` to update the image.
+run ~make~ to update the image.
